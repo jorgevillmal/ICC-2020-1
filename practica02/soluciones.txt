@@ -1,0 +1,24 @@
+import static java.lang.Math.sqrt;
+public class Sintaxis {
+
+       public static void main(String[] args) {
+       	      int a, b = 20, c;
+	      a = 3; c = -7;
+
+	      booleaN prop = 0;		<- Se cambio la respuesta por un boolean/ Se cambio el nombre de la variable por minusculas 
+	      byte ochoBits = 128;	<- Se cambio el valor de 128 por 127 ya que un bite tiene 7 bit y 2 a la n da como resultado 128 pero como java empieza a contar desde 0 entonces es 128 - 1 = 0 
+	      short dieciseisBits = -32769; <- De la misma forma el short el numero que puede contener short hay que restarle uno ya que uno 
+
+              double discriminante = b * b - 4 * a * c;
+              long x1 = (-b + sqrt(Discriminante)) / (2 * a); <- Cambiamos de tipo primitivo de long a double. / Se cambio el nombre de la variable ya que Discriminante con mayuscula no existe.o
+              double x2 = (-b - sqrt(discriminante)) / (2 * a);
+
+	      Char ch1, ch2;            <- Se cambio el nombre del dato primitivo, ya que comienza con mayuscula.
+	      ch = 'g'; ch2 = "w";	<- La variable ch no existe / En la varible ch2 cambiamos las comillas para indicar que es un solo caracter. / Entre la declaracion de variables no puede ir un punto y coma ya que eso le indica a java que finalizo la insruccion, por lo cual se separo ya que java no entendia que eran variables que se decaran.
+	      int d = 1 / (a - 3);	<- Se cambio el valor de ´a´ ya que la resta de (a - 3)
+ da cero.
+	      // Declaraciones
+								      	 
+									 }
+
+} 
