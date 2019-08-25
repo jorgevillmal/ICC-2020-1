@@ -1,0 +1,10 @@
+PrePost.java Explicación
+
+	     Es porque la primera expresión primero se le resta uno y después se imprime, a diferencia de la segunda expresión que primero imprime el valor de la variable y después les resta uno.
+
+
+
+Operadores.java Explicaciión 
+
+
+		La primera instrucción da como resultado 7 ya que esta declarado como un entero (int) por lo que el resultado lo redondea a su entero menor. Por otro lado en la siguiente expresión el resultado es 7.8 ya que el resultado esta declarado como real (double) es por ello que nos imprime todo el resultado en los reales.
